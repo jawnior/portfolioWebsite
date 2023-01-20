@@ -1,0 +1,154 @@
+body {
+    background-color: #192734;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 0 27%;
+}
+
+header h1 {
+    font-family: "Roboto Mono", Arial, sans-serif;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+header li {
+    margin-right: 10px;
+}
+
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Open Sans", Arial, sans-serif;
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: grey;
+}
+
+
+@media screen and (max-width: 1451px) {
+    header {
+        margin: 0 5%;
+    }
+}
+
+
+/* ABOUT ME */
+
+section {
+    margin: 0 27%;
+}
+
+section h2 {
+   font-family: "Roboto Mono", Arial, sans-serif;
+}
+
+section p {
+    font-family: "Open Sans", Arial, sans-serif;
+    padding-right: 20px;
+}
+
+#about-me {
+    display: inline-flex;
+}
+
+#about-me img {
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1451px) {
+    #about-me  {
+        display: block;
+    }
+
+    #about-me img {
+        display: block;
+        width: 25%;
+        height: 25%;
+        margin: 0 auto;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .about-me img {
+        display: block;
+        width: 50%;
+        height: 50%;
+        margin: 0 auto;
+    }
+}
+/* PROJECTS */
+
+.textboxProjects p {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Open Sans", Arial, sans-serif;
+    transition: color 0.3s;
+}
+
+.textboxProjects p:hover {
+    color: grey;
+}
+
+.textboxProjects img {
+    display: none;
+    height: 25%;
+    width: 25%;
+}
+
+#geodeticWebsite:hover {
+    cursor: pointer;
+}
+
+/* SKILLS */
+
+#skills {
+    height: 100px;
+}
+
+.skills-container i {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+/* CONTACT */
+
+#contact a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.contact-container i {
+    font-size: 32px;
+    margin: 0 10px;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.contact-container i:hover {
+    color: grey;
+}
