@@ -119,7 +119,9 @@ section p {
     width: 25%;
 }
 
-#geodeticWebsite:hover {
+#geodeticWebsite:hover,
+#colorFlipper:hover,
+#counter:hover {
     cursor: pointer;
 }
 
