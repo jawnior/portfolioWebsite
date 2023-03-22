@@ -1,5 +1,11 @@
 # Portfolio Website
 
-This is my portfolio website, where I will upload all my projects and update new skills. 
+## What is it?
 
-You can check the website here: https://tourmaline-daifuku-092737.netlify.app/
+A portfolio website with a brief introduction of myself, links to my projects and languages that I write in.
+
+## Link
+
+https://resplendent-elf-b9c8e9.netlify.app/
+ 
+
