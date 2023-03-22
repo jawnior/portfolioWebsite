@@ -121,7 +121,8 @@ section p {
 
 #geodeticWebsite:hover,
 #colorFlipper:hover,
-#counter:hover {
+#counter:hover,
+#ethereumAccountChecker:hover {
     cursor: pointer;
 }
 
@@ -131,7 +132,8 @@ section p {
     height: 100px;
 }
 
-.skills-container i {
+.skills-container i,
+svg {
     font-size: 24px;
     margin: 0 10px;
 }

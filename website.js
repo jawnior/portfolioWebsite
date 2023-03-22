@@ -7,6 +7,9 @@ let colorFlipperPicture = document.getElementById('colorFlipperPicture');
 let counter = document.getElementById('counter');
 let counterPicture = document.getElementById('counterPicture');
 
+let ethereumAccountChecker = document.getElementById('ethereumAccountChecker');
+let ethereumAccountCheckerPicture = document.getElementById('ethereumAccountCheckerPicture');
+
 let currentPicture = null;
 
 function toggleImageVisibility(element) {
@@ -22,14 +25,18 @@ function toggleImageVisibility(element) {
     }
 }
 
-geodeticWebsite.addEventListener("click", function () {
+geodeticWebsite.addEventListener("click", () => {
     toggleImageVisibility(geodeticWebsitePicture);
 });
 
-colorFlipper.addEventListener("click", function () {
+colorFlipper.addEventListener("click", () => {
     toggleImageVisibility(colorFlipperPicture);
 });
 
-counter.addEventListener("click", function () {
+counter.addEventListener("click", () => {
     toggleImageVisibility(counterPicture);
 });
+
+ethereumAccountChecker.addEventListener("click", () => {
+    toggleImageVisibility(ethereumAccountCheckerPicture);
+})
