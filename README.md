@@ -2,7 +2,7 @@
 
 A portfolio website with a brief introduction of myself, links to my projects and languages that I write in.
 
-Live demo [_here_](https://effervescent-cupcake-372367.netlify.app/)
+Live demo [_here_](https://resplendent-elf-b9c8e9.netlify.app/)
 
 ## Built with
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
