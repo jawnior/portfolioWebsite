@@ -122,7 +122,8 @@ section p {
 #geodeticWebsite:hover,
 #colorFlipper:hover,
 #counter:hover,
-#ethereumAccountChecker:hover {
+#ethereumAccountChecker:hover,
+#landingPage:hover {
     cursor: pointer;
 }
 

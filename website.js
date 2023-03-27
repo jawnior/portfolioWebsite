@@ -1,14 +1,17 @@
-let geodeticWebsite = document.getElementById('geodeticWebsite');
-let geodeticWebsitePicture = document.getElementById('geodeticWebsitePicture');
+const geodeticWebsite = document.getElementById('geodeticWebsite');
+const geodeticWebsitePicture = document.getElementById('geodeticWebsitePicture');
 
-let colorFlipper = document.getElementById('colorFlipper');
-let colorFlipperPicture = document.getElementById('colorFlipperPicture');
+const colorFlipper = document.getElementById('colorFlipper');
+const colorFlipperPicture = document.getElementById('colorFlipperPicture');
 
-let counter = document.getElementById('counter');
-let counterPicture = document.getElementById('counterPicture');
+const counter = document.getElementById('counter');
+const counterPicture = document.getElementById('counterPicture');
 
-let ethereumAccountChecker = document.getElementById('ethereumAccountChecker');
-let ethereumAccountCheckerPicture = document.getElementById('ethereumAccountCheckerPicture');
+const ethereumAccountChecker = document.getElementById('ethereumAccountChecker');
+const ethereumAccountCheckerPicture = document.getElementById('ethereumAccountCheckerPicture');
+
+const landingPage = document.getElementById('landingPage');
+const landingPagePicture = document.getElementById('landingPagePicture')
 
 let currentPicture = null;
 
@@ -39,4 +42,8 @@ counter.addEventListener("click", () => {
 
 ethereumAccountChecker.addEventListener("click", () => {
     toggleImageVisibility(ethereumAccountCheckerPicture);
-})
+});
+
+landingPage.addEventListener("click", () => {
+    toggleImageVisibility(landingPagePicture);
+});
