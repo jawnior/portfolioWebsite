@@ -128,10 +128,6 @@ section p {
 
 /* SKILLS */
 
-#skills {
-    
-}
-
 .skills-container i,
 svg {
     font-size: 24px;
@@ -157,16 +153,16 @@ svg {
     color: grey;
 }
 
-#contact-main {
+.contact-main {
     display: none;
 }
 
 @media screen and (max-width: 450px) {
-    #contact-main {
+    .contact-main {
         display: block;
     }
 
-    #contact-main a {
+    .contact-main a {
         color: #ffffff;
         text-decoration: none;
         font-family: "Open Sans", Arial, sans-serif;
