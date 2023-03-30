@@ -48,6 +48,19 @@ header a:hover {
     }
 }
 
+@media screen and (max-width: 600px) {
+    #about-me-header {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #about-me-header,
+    #projects-header,
+    #skills-header {
+        display: none;
+    }
+}
 
 /* ABOUT ME */
 
@@ -157,3 +170,4 @@ svg {
 .contact-container i:hover {
     color: grey;
 }
+
