@@ -57,7 +57,8 @@ header a:hover {
 @media screen and (max-width: 450px) {
     #about-me-header,
     #projects-header,
-    #skills-header {
+    #skills-header,
+    #contact-header {
         display: none;
     }
 }
@@ -92,26 +93,11 @@ section p {
         display: block;
     }
 
-    #about-me img {
-        display: block;
-        width: 25%;
-        height: 25%;
-        margin: 0 auto;
-    }
-
     section {
         margin: 0 5%;
     }
 }
 
-@media screen and (max-width: 750px) {
-    .about-me img {
-        display: block;
-        width: 50%;
-        height: 50%;
-        margin: 0 auto;
-    }
-}
 /* PROJECTS */
 
 .textboxProjects p {
@@ -143,7 +129,7 @@ section p {
 /* SKILLS */
 
 #skills {
-    height: 100px;
+    
 }
 
 .skills-container i,
@@ -171,3 +157,29 @@ svg {
     color: grey;
 }
 
+#contact-main {
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    #contact-main {
+        display: block;
+    }
+
+    #contact-main a {
+        color: #ffffff;
+        text-decoration: none;
+        font-family: "Open Sans", Arial, sans-serif;
+    }
+
+    .contact-container-main i {
+        font-size: 32px;
+        margin: 0 10px;
+        color: #ffffff;
+        transition: color 0.3s;
+    }
+
+    .contact-container-main i:hover {
+        color: grey;
+    }
+}
